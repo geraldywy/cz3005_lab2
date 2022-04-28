@@ -4,7 +4,7 @@ from helper import *
 
 from pyswip import Prolog
 
-prolog_filename = "Agent.pl"  # replace with path to prolog file
+prolog_filename = "Gerald-Agent.pl"  # replace with path to prolog file
 
 prolog = Prolog()
 prolog.consult(prolog_filename)

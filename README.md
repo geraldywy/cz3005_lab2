@@ -14,12 +14,12 @@ pip install git+https://github.com/yuce/pyswip@master#egg=pyswip
 While in root directory,
 To run my driver:
 ```
-python3 driver.py
+python3 Gerald-Driver.py
 ```
 
 To run foreign driver:
 ```
-python3 Benjababe-Driver.py
+python3 Benjababe-Friend-Driver.py
 ```
 
 ## Reading outputs
@@ -28,4 +28,4 @@ My driver has 5 test cases, each writing its own output into a file named ```tes
 The combined output is also written into ```Gerald-testPrintout-Self-Self.txt```.
 
 ## Disclaimer
-```Benjababe-Driver.py``` is an external driver and is not written by me.
+```Benjababe-Friend-Driver.py``` is an external driver and is not written by me.

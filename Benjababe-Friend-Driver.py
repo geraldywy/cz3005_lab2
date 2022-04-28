@@ -694,7 +694,7 @@ def handle_explore_result(prolog: Prolog, a_map: Map, L: List[Dict[str, List[Ato
 
 def printout_glitter_visited_safe():
     a_map = setup_map(7, 6)
-    prolog = setup_prolog("agent.pl", a_map)
+    prolog = setup_prolog("Gerald-Agent.pl", a_map)
 
     print("===[Complete Absolute Map]===")
     a_map.print_init_map()
@@ -730,7 +730,7 @@ def printout_glitter_visited_safe():
 
 def printout_confundus_tingle():
     a_map = setup_map(7, 6)
-    prolog = setup_prolog("agent.pl", a_map)
+    prolog = setup_prolog("Gerald-Agent.pl", a_map)
 
     print("===[Complete Absolute Map]===")
     a_map.print_init_map()
@@ -763,7 +763,7 @@ def printout_confundus_tingle():
 
 def printout_wumpus_stench_bump_current():
     a_map = setup_map(7, 6)
-    prolog = setup_prolog("agent.pl", a_map)
+    prolog = setup_prolog("Gerald-Agent.pl", a_map)
 
     print("===[Complete Absolute Map]===")
     a_map.print_init_map()
@@ -813,7 +813,7 @@ def printout_wumpus_stench_bump_current():
 
 def printout_reposition():
     a_map = setup_map(7, 6)
-    prolog = setup_prolog("agent.pl", a_map)
+    prolog = setup_prolog("Gerald-Agent.pl", a_map)
 
     print("===[Complete Absolute Map]===")
     a_map.print_init_map()
@@ -841,7 +841,7 @@ def printout_reposition():
 
 def printout_explore_reset():
     a_map = setup_map(7, 6)
-    prolog = setup_prolog("agent.pl", a_map)
+    prolog = setup_prolog("Gerald-Agent.pl", a_map)
 
     print("===[Complete Absolute Map]===")
     a_map.print_init_map()
@@ -882,7 +882,7 @@ def printout_tests():
 
 
 def main():
-    filename = "Benjababe-testPrintout-Self-Self.txt"
+    filename = "Gerald-testPrintout-Self-Friend.txt"
     sys.stdout = open(file=filename, mode="w+", encoding="utf8")
     printout_tests()
 
